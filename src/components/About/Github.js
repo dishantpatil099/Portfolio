@@ -5,38 +5,36 @@ import leetcodeCal from "../../Assets/leetcodeCal.png";
 import leetcodeCal2 from "../../Assets/leetcodeCal2.png";
 
 
-function Github() {
-  return ( <>
+// function Github() {
+//   return ( <>
   
-    <Row style={{ justifyContent: "center", paddingBottom: "20px" }}>
+//     <Row style={{ justifyContent: "center", paddingBottom: "20px" }}>
       
-      <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-     Days I <strong className="purple">Code</strong>
-     </h1> 
-            <Col>
-              <img src={leetcodeCal} style={{maxHeight: "3600px" , maxWidth: "1150px"}} alt="about" className="img-fluid" />
+//       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+//      Days I <strong className="purple">Code</strong>
+//      </h1> 
+//             <Col>
+//               <img src={leetcodeCal} style={{maxHeight: "3600px" , maxWidth: "1150px"}} alt="about" className="img-fluid" />
 
-            </Col>
+//             </Col>
           
       
-    </Row>
-    <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+//     </Row>
+//     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       
      
-            <Col>
-              <img src={leetcodeCal2} style={{maxHeight: "3600px" , maxWidth: "1150px"}} alt="about" className="img-fluid" />
+//             <Col>
+//               <img src={leetcodeCal2} style={{maxHeight: "3600px" , maxWidth: "1150px"}} alt="about" className="img-fluid" />
 
-            </Col>
+//             </Col>
           
 
-    </Row>
-  </>
-      // <div>
-      //   <img src="../Assets/leetcode 2.png"> Leetcode</img>
-      // </div>
+//     </Row>
+//   </>
     
-  );
-}
+    
+//   );
+// }
 // {/* <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
 //         Days I <strong className="purple">Code</strong>
 //       </h1> */}
@@ -48,4 +46,37 @@ function Github() {
 //         fontSize={16}
 //       /> */}
 
-export default Github;
+// export default Github;
+
+// import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Assuming you're using Bootstrap
+
+const MyComponent = () => {
+  return (
+    <div>
+      <Row style={{ justifyContent: "center", paddingBottom: "20px", display: "flex" }}>
+        <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+          Days I <strong className="purple">Code</strong>
+        </h1>
+        <Col xs={12} md={10} style={{ padding: "10px", margin: "5 auto" /* or box-sizing: border-box; */ }}> {/* Add padding for spacing */}
+          <img
+            src={leetcodeCal}
+            alt="about"
+            className="img-fluid"
+            style={{ objectFit: "contain" }} // Responsive styles
+          />
+        </Col>
+        <Col xs={12} md={10} style={{ padding: "10px", margin: "5 auto" /* or box-sizing: border-box; */ }}> {/* Add padding for spacing */}
+          <img
+            src={leetcodeCal2}
+            alt="about"
+            className="img-fluid"
+            style={{ objectFit: "contain" }} // Responsive styles
+          />
+        </Col>
+      </Row>
+    </div>
+  );
+};
+
+export default MyComponent;

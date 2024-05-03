@@ -362,6 +362,52 @@ button:focus {
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
+.achievements-container {
+  padding-left: 20px; /* Adjust the padding amount for desired position */
+}
+.achievements {
+  margin-bottom: 20px; /* Add some spacing below achievements */
+}
+
+.achievements-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Add some spacing below title */
+  margin-left: -20px;
+}
+
+.achievements-title .purple-dot {
+  font-size: 20px; /* Adjust font size for custom bullet point */
+  margin-right: 5px; /* Add spacing between bullet and text */
+  color: purple; /* Ensure custom bullet point inherits color */
+}
+
+.achievements-list {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margins */
+  margin-left: -10px;
+}
+
+.achievements-list li {
+  line-height: 1.5; /* Adjust line height for better readability */
+  margin-bottom: 5px; /* Add spacing between list items */
+}
+
+@media only screen and (max-width: 600px) {
+  .achievements-title {
+    font-size: 18px; /* Adjust title size for smaller screens */
+  }
+
+  .achievements-list li {
+    margin-left: 15px; /* Adjust list item margin on smaller screens */
+  }
+}
+.list-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px; /* Adjust margin as needed */
+}
 
 .coding-social-icons {
   position: relative !important;
@@ -375,6 +421,34 @@ button:focus {
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
+.profile-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px; /* Add some spacing between profiles */
+  margin-left: 10px;
+}
+
+.profile-name {
+  margin-right: 10px; /* Add spacing between profile name and rating */
+}
+.leetcode-rating {
+  color: var(--imp-text-color) !important;/* Set the text color to purple */
+  font-family: monospace;
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+  /* Responsive styles for smaller screens */
+  .profile-container {
+    flex-wrap: wrap; /* Wrap profiles on smaller screens */
+  }
+
+  .profile-name {
+    margin-bottom: 5px; /* Adjust spacing for better readability */
+  }
+}
+
 .leetcode-profile {
   display: flex;
   align-items: center;
@@ -390,8 +464,8 @@ button:focus {
   border-radius: 50%; /* Make the element a perfect circle */
   overflow: hidden; /* Prevent content from overflowing outside the circle */
   justify-content: center; /* Center content horizontally within the circle */
-  margin-left: 40px;
-  margin-top: 2px;
+  
+  /* margin-top: 2px; */
 
 }
 
@@ -417,8 +491,8 @@ button:focus {
   border-radius: 50%; /* Make the element a perfect circle */
   overflow: hidden; /* Prevent content from overflowing outside the circle */
   justify-content: center; /* Center content horizontally within the circle */
-  margin-left: 20px;
-  margin-top: 2px;
+ 
+  /* margin-top: 2px; */
 
 }
 

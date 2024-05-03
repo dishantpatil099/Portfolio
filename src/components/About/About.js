@@ -28,12 +28,13 @@ function About() {
           </Col>
           <Col
             md={4}
-            style={{width: '540px', height: '500px', paddingTop: "70px", paddingBottom: "0px" }}
+            style={{width: '540px', height: '500px', paddingTop: "20px", paddingBottom: "0px" }}
             // style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="myAbout"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
+         
           
         </Row>
         <h1 className="project-heading">

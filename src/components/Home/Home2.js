@@ -35,11 +35,9 @@ function Home2() {
               <br />
               <br />
               <br />
-              ❖
-              <b className="purple" style={{marginLeft: "3px"}}>
 
-                 Measurable Achievements&nbsp;
-              </b>:
+              {/* ❖<b className="purple" style={{marginLeft: "3px"}}> Measurable Achievements&nbsp;</b>:
+              
 
               <br></br>
               <i style={{marginLeft: "20px"}}>
@@ -54,58 +52,68 @@ function Home2() {
               
               
               <i style={{marginLeft: "20px"}}>
-              • GFG Institute (VJTI) - <b className="purple"> Rank 3</b> .
+              • GFG Institute (VJTI) - <b className="purple"> Rank 3</b>.
                 
               </i>
               <br></br>
               <i style={{marginLeft: "20px"}}>
-              • <b className="purple"> 1800+ </b> Active Rankings in Leetcode weekly contests .
+              • <b className="purple"> 1800+ </b> Active Rankings in Leetcode weekly contests.
                 
               </i>
-              <br />
-              <br />
+              <br /> */}
 
-              <Row style={{ justifyContent: "center", paddingBottom: "37px" }}>
-                <Col>
-                <b className="purple"
-                style={{marginLeft:'30px'}}>
-                Coding Profiles :
-
-                </b>
-                </Col>
-                <Col style={{marginLeft:'-30px'}} >
-                  Leetcode <b className="purple"> 950+ </b> 
-                  
-                  <a
-                    href="https://www.leetcode.com/param650/"
-                    target="_blank"
-                    rel="noreferrer"
-                    // className="icon-colour  home-social-icons"
-                    className="leetcode-profile"
-                    style={{ justifyContent: "center"}}
-                  >
-                    <img src={leetcodeLogo} style={{ width: '25px', height: '25px', transition: "transform 0.2s ease-in-out", }} className="img-fluid" alt="leetcode" />                      
-                  </a>
-                </Col>
-                <Col style={{marginLeft:'-60px'}}>
-                GFG <b className="purple"> 500+ </b> 
-                
-                <a
-                  href="https://www.geeksforgeeks.org/user/kdcs650/"
-                  target="_blank"
-                  rel="noreferrer"
-                  // className="icon-colour  home-social-icons"
-                  className="gfg-profile "
-                >
-                    <img src={gfgLogo} style={{ width: '28px', height: '28px' }} className="img-fluid" alt="gfg" />                      
-                  
-                </a>
-                </Col>
-                <Col>
-                </Col>
-
-              </Row>
               
+              <div class="achievements-container">
+                <section class="achievements">
+                  <h4 class="achievements-title">
+                    ❖ Measurable Achievements&nbsp;:
+                  </h4>
+                  <ul class="achievements-list">
+                    <li>
+                      • Solved <b class="purple">1550+</b> DS & Algo problems across platforms like <b class="purple">Leetcode and GFG</b>.
+                    </li>
+                    <li>
+                    • GFG Institute (VJTI) - <b class="purple">Rank 3</b>.
+                    </li>
+                    <li>
+                      • <b class="purple">1800+</b> Active Rankings in Leetcode weekly contests.
+                    </li>
+
+                  </ul>
+                </section>
+              </div>
+
+              
+              
+
+
+              
+                
+              <b class="purple" style={{marginLeft: "5px"}}>Coding Profiles:</b>
+
+              <br/>
+
+              <span class="profile-container">
+              <span  style={{fontSize: "0.8 rem"}}  class="profile-name">LeetCode  <b class="leetcode-rating"> 950+</b></span>
+
+
+                <a href="https://www.leetcode.com/param650/" target="_blank" rel="noreferrer" class="leetcode-profile">
+                  <img src={leetcodeLogo} alt="leetcode" style={{width: "25px", height: "25px", transition: 'transform 0.2s ease-in-out'}} class="img-fluid"/>
+                </a>
+              </span>
+
+              <span class="profile-container">
+              <span style={{fontSize: "0.8 rem"}}  class="profile-name">GFG <b class="leetcode-rating"> 500+</b></span>
+
+                <a href="https://www.geeksforgeeks.org/user/kdcs650/" target="_blank" rel="noreferrer" class="gfg-profile">
+                  <img src={gfgLogo} alt="leetcode" style={{width: "25px", height: "25px", transition: 'transform 0.2s ease-in-out'}} class="img-fluid"/>
+
+                </a>
+              </span>
+                              
+                
+                
+                
 
                 
               <br />
@@ -137,7 +145,11 @@ function Home2() {
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} style={{ width: '700px', height: '520px' }} className="img-fluid" alt="avatar" />
+
             </Tilt>
+            {/* <Tilt>
+              <img src={myImg} className="img-fluid" alt="avatar" />
+            </Tilt> */}
           </Col>
         </Row>
         <Row>
