@@ -89,7 +89,7 @@ function Projects() {
               description= "❖ Developed a weather app that tracks the user’s location utilizing Geolocation API."
               description2="❖ Tech Used: Geolocation API | JavaScript | OpenWeatherMap API | Fetch API."
               description3 = "❖ A responsive and fully functional web application that displays real time weather information of any city throughout the world using the OpenWeatherMap API."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://github.com/dishantpatil099/Hello-Forecast"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -102,7 +102,7 @@ function Projects() {
               description2="❖ Tech Used : Bootstrap v5.0 , HTML CSS , JavaScript"
               description3 = "❖ The project seeks to connect consumers who are health-conscious and want to have access to fresh organic produce with local farms and farmers."
               description4 = "❖ It will feature a user-friendly interface that allows customers to easily navigate through the available products and make orders."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://github.com/dishantpatil099/Fresh-Haven-FRT"
               demoLink= "https://youtu.be/X2stR0YRbf8"
             />
           </Col>

@@ -6,6 +6,8 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { RiMailSendFill } from "react-icons/ri";
+
 
 function Footer() {
   let date = new Date();
@@ -21,7 +23,30 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
+
             <li className="social-icons">
+                  <a
+                    href="mailto:dishantpatil099@gmail.com"
+                    style={{ color: "white" }}
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <RiMailSendFill />
+  
+                  </a>
+              </li>
+              <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/dishantpatil099/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              
               <a
                 href="https://github.com/dishantpatil099"
                 style={{ color: "white" }}
@@ -33,7 +58,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/dishantpatil099"
+                href="https://twitter.com/dishant_pa41547"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -41,16 +66,7 @@ function Footer() {
                 <AiOutlineTwitter />
               </a>
             </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/dishantpatil099/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
+            
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/dishantpatil_099"

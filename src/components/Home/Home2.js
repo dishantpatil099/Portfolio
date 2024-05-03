@@ -9,6 +9,8 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
+import { RiMailSendFill } from "react-icons/ri";
+
 import { FaLinkedinIn } from "react-icons/fa";
 
 
@@ -112,8 +114,8 @@ function Home2() {
                 <b className="purple"> Data Structures & Algorithms and Software Development </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Web Technologies.
-                </b>
+                  Web Technologies
+                </b>.
               </i>
               <br />
               <br />
@@ -128,7 +130,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Express.js</b>
+                <b className="purple"> React.js and Express.js</b>.
               </i>
             </p>
           </Col>
@@ -145,6 +147,28 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+              <li className="social-icons">
+                  <a
+                    href="mailto:dishantpatil099@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                  >
+                    <RiMailSendFill />
+  
+                  </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/dishantpatil099/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+
               <li className="social-icons">
                 <a
                   href="https://github.com/dishantpatil099"
@@ -165,16 +189,9 @@ function Home2() {
                   <AiOutlineTwitter />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/dishantpatil099/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
+
+              
+              
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/dishantpatil_099"
