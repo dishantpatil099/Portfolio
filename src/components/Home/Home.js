@@ -22,7 +22,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> DISHANT PATIL </strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -30,12 +30,12 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 10 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "500px" , maxWidth: "700px" , marginLeft: "-25px" , marginTop: "-2px"}}
               />
             </Col>
           </Row>

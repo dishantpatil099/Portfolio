@@ -11,7 +11,15 @@ function ProjectCards(props) {
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
+        {props.description}
+        <br />
+        {props.description2}
+        <br />
+        {props.description3}
+        <br />
+        {props.description4}
+        <br />
+        {props.description5}
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;

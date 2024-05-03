@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
+import leetcodeLogo from "../../Assets/leetcode.svg";
+import gfgLogo from "../../Assets/gfgLogo.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -8,6 +10,8 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+
+
 
 function Home2() {
   return (
@@ -24,20 +28,96 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Python, C++ and Javascript. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              <br />
+              ❖
+              <b className="purple" style={{marginLeft: "3px"}}>
+
+                 Measurable Achievements&nbsp;
+              </b>:
+
+              <br></br>
+              <i style={{marginLeft: "20px"}}>
+              • Solved <b className="purple"> 1550+ </b> DS & Algo problems across platforms like <b className="purple"> Leetcode and GFG </b>.
+                
+              </i>
+              <br></br>
+
+              
+              
+
+              
+              
+              <i style={{marginLeft: "20px"}}>
+              • GFG Institute (VJTI) - <b className="purple"> Rank 3</b> .
+                
+              </i>
+              <br></br>
+              <i style={{marginLeft: "20px"}}>
+              • <b className="purple"> 1800+ </b> Active Rankings in Leetcode weekly contests .
+                
+              </i>
+              <br />
+              <br />
+
+              <Row style={{ justifyContent: "center", paddingBottom: "37px" }}>
+                <Col>
+                <b className="purple"
+                style={{marginLeft:'30px'}}>
+                Coding Profiles :
+
+                </b>
+                </Col>
+                <Col style={{marginLeft:'-30px'}} >
+                  Leetcode <b className="purple"> 950+ </b> 
+                  
+                  <a
+                    href="https://www.leetcode.com/param650/"
+                    target="_blank"
+                    rel="noreferrer"
+                    // className="icon-colour  home-social-icons"
+                    className="leetcode-profile"
+                    style={{ justifyContent: "center"}}
+                  >
+                    <img src={leetcodeLogo} style={{ width: '25px', height: '25px', transition: "transform 0.2s ease-in-out", }} className="img-fluid" alt="leetcode" />                      
+                  </a>
+                </Col>
+                <Col style={{marginLeft:'-60px'}}>
+                GFG <b className="purple"> 500+ </b> 
+                
+                <a
+                  href="https://www.geeksforgeeks.org/user/kdcs650/"
+                  target="_blank"
+                  rel="noreferrer"
+                  // className="icon-colour  home-social-icons"
+                  className="gfg-profile "
+                >
+                    <img src={gfgLogo} style={{ width: '28px', height: '28px' }} className="img-fluid" alt="gfg" />                      
+                  
+                </a>
+                </Col>
+                <Col>
+                </Col>
+
+              </Row>
+              
+
+                
+              <br />
+              I'm well versed in the domain of&nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple"> Data Structures & Algorithms and Software Development </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  Web Technologies.
                 </b>
               </i>
               <br />
               <br />
+              
               Whenever possible, I also apply my passion for developing products
               with <b className="purple">Node.js</b> and
               <i>
@@ -48,13 +128,13 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js and Express.js</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} style={{ width: '700px', height: '520px' }} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -67,7 +147,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/dishantpatil099"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +157,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/dishant_pa41547"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +167,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/dishantpatil099/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +177,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/dishantpatil_099"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

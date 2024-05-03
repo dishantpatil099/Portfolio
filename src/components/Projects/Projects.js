@@ -3,11 +3,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bitsOfCode from "../../Assets/Projects/bitsOfCode.png";
+import emotion from "../../Assets/Projects/emotion.png";
+
+
 
 function Projects() {
   return (
@@ -25,21 +27,42 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="BlogCraft - Blogging App"
+              description="❖ Dynamic web application built to provide users a seamless platform for creating, sharing, and interacting with blogs."
+              description2 = "❖ Tools & technologies used:  Node.js | Express.js | MongoDB | RESTful APIs | JWT Token | Multer."
+              description3 = "❖ Enabled users to create, publish, and interact with blogs, including image uploads and commenting functionalities."
+              description4 = "❖ JWT token-based authorization & authentication for user registration, login, and secure access control"
+              description5 = "❖ Key features: User Registration & Login | Comment system | MVC Architecture | JWT Token | EJS."
+              ghLink="https://github.com/dishantpatil099/blogCraft"
+              demoLink="https://blogcraft-production.up.railway.app/"
             />
           </Col>
 
+          
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={leaf}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="URL Shortener "
+              description="❖ The URL Shortener Application, built using Node.js, Express.js, and MongoDB, streamlines URL management with RESTful APIs."
+              description2 = "❖ Technologies used: Node.js | Express.js | MongoDB | RESTful APIs | JWT Token | EJS."
+              description3 = "❖ It enables CRUD operations, ensuring users can create, read, update and delete shortened URLs, Unique short URL generation with Nano ID."
+              description4 = "❖ Key features: Convenient URL shortening and management | Seamless user experience with server-side rendering | User Registration and Authentication | Robust security measures. "
+              ghLink="https://github.com/dishantpatil099/url-shortener"
+              demoLink="https://plant49-ai.herokuapp.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="QuickCart – E Commerce App"
+              description= "❖ Web application offering a platform for users to explore, search, and purchase products."
+              description2 = "❖ Tools & technologies used: React JS | JavaScript | Redux Toolkit | Material UI | FirebaseAuth."
+              description3 = "❖ Key features: Product Catalog | Search and Filter products | User Registration and Authentication | Product Cart | Checkout."
+              ghLink="https://github.com/dishantpatil099/QuickCart"
+              demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -47,46 +70,44 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              title="AudioVerse – Music Playing App"
+              description="❖ Developed a Spotify clone, a web application that allows users to register, log in, and enjoy music streaming functionality similar to the original Spotify platform."
+              description2= "❖ Tech Used: Spotify API, Vanilla JS, Tailwind CSS, Vite. "
+              description3= "❖ Key features: User registration Sign‑up Sign‑in, Music playback, Featured Playlist."
+              ghLink="https://github.com/dishantpatil099/Spotify-Clone"
               demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              title="Hello Forecast"
+              description= "❖ Developed a weather app that tracks the user’s location utilizing Geolocation API."
+              description2="❖ Tech Used: Geolocation API | JavaScript | OpenWeatherMap API | Fetch API."
+              description3 = "❖ A responsive and fully functional web application that displays real time weather information of any city throughout the world using the OpenWeatherMap API."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Fresh-Haven"
+              description= "❖ The website will serve as a platform where consumers can browse and order fresh vegetables and fruits directly from local farms."
+              description2="❖ Tech Used : Bootstrap v5.0 , HTML CSS , JavaScript"
+              description3 = "❖ The project seeks to connect consumers who are health-conscious and want to have access to fresh organic produce with local farms and farmers."
+              description4 = "❖ It will feature a user-friendly interface that allows customers to easily navigate through the available products and make orders."
+              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              demoLink= "https://youtu.be/X2stR0YRbf8"
             />
           </Col>
+
+          
         </Row>
       </Container>
     </Container>

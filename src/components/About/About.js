@@ -27,12 +27,14 @@ function About() {
             <Aboutcard />
           </Col>
           <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
+            md={4}
+            style={{width: '540px', height: '500px', paddingTop: "70px", paddingBottom: "0px" }}
+            // style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            className="myAbout"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
+          
         </Row>
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>

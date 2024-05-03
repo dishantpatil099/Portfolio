@@ -363,6 +363,72 @@ button:focus {
   transition: 0.5s !important;
 }
 
+.coding-social-icons {
+  position: relative !important;
+  display: inline-block !important;
+  width: 40px !important;
+  height: 40px !important;
+  text-align: center !important;
+  font-size: 1.2em !important;
+  line-height: 2em !important;
+  background: rgba(218, 224, 51, 0.972) !important;
+  border-radius: 50% !important;
+  transition: 0.5s !important;
+}
+.leetcode-profile {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  /* Border and rounded corners removed for round shape */
+  /* padding: 5px 10px;  - Remove padding if desired */
+  font-size: 1.5rem; /* Adjust font size as needed */
+  color: #000000; /* Text color */
+  transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+  width: 40px; /* Set width for round shape */
+  height: 40px; /* Set height for round shape */
+  background-color: #ffffff; /* Background color */
+  border-radius: 50%; /* Make the element a perfect circle */
+  overflow: hidden; /* Prevent content from overflowing outside the circle */
+  justify-content: center; /* Center content horizontally within the circle */
+  margin-left: 40px;
+  margin-top: 2px;
+
+}
+
+.leetcode-profile:hover {
+  background-color: #ae27ec;
+  transform: scale(1.2);
+  transition: 'transform 0.2s ease-in-out'
+
+}
+
+.gfg-profile {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  /* Border and rounded corners removed for round shape */
+  /* padding: 5px 10px;  - Remove padding if desired */
+  font-size: 1.5rem; /* Adjust font size as needed */
+  color: #0bae21; /* Text color */
+  transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+  width: 40px; /* Set width for round shape */
+  height: 40px; /* Set height for round shape */
+  background-color: #ffffff; /* Background color */
+  border-radius: 50%; /* Make the element a perfect circle */
+  overflow: hidden; /* Prevent content from overflowing outside the circle */
+  justify-content: center; /* Center content horizontally within the circle */
+  margin-left: 20px;
+  margin-top: 2px;
+
+}
+
+.gfg-profile:hover {
+  background-color: #ae27ec;
+  transform: scale(1.2);
+  transition: 'transform 0.2s ease-in-out'
+  /* Slight background change on hover */
+}
+
 .home-social-icons::before {
   content: "";
   position: absolute;
